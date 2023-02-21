@@ -28,6 +28,5 @@ public	By SecondPrice=By.xpath("(//div[@class='prc'])[2]");
 		Thread.sleep(2000);
 		wait.until(ExpectedConditions.elementToBeClickable(Add_qty_Second_Item));
 		driver.findElement(Add_qty_Second_Item).click();
-		Thread.sleep(2000);
-	}
+wait.until(ExpectedConditions.elementToBeClickable(Add_qty_Second_Item));	}
 }
