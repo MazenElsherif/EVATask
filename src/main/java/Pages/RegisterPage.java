@@ -51,7 +51,7 @@ public class RegisterPage {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Thread.sleep(2000);
 		driver.findElement(Continue_Button3).click();
-		driver.findElement(Skip).click();
+		//driver.findElement(Skip).click();
 		
 
 	}
